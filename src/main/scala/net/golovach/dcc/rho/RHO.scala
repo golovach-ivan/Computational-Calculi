@@ -22,7 +22,7 @@ object RHO extends App {
     case `∅` => "∅"
     case Par(p, q) => s"(${show(p)}|${show(q)})"
     case Lift(c: Channel, p: Process) => s"${show(c)}!(${show(p)})"
-    case Input(c0: Channel, c1: Channel, p: Process) => s"(${show(c0)})?(${show(c1)}.${show(p)})"
+    case Input(c0: Channel, c1: Channel, p: Process) => s"(${show(c0)})?(${show(c1)}).(${show(p)})"
     case Drop(c: Channel) => s"*(${show(c)})"
     case Quote(p: Process) => p match {
       case `∅` => "@∅"
