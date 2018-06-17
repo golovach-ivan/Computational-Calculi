@@ -1,4 +1,4 @@
-package cc
+package net.golovach.dcc
 
 object StreamLib {
 

@@ -1,10 +1,10 @@
-package cc.dyck
+package net.golovach.dcc.dyck
 
 /**
   * Simplest case: NO lang classes.
   */
 object Dyck0 extends App {
-  import cc.StreamLib._
+  import net.golovach.dcc.StreamLib._
 
   // D := ε|(D)D
   def D: Stream[String] =

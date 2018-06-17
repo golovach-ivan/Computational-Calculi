@@ -1,7 +1,7 @@
-package cc.dyck
+package net.golovach.dcc.dyck
 
 object Dyck2 extends App {
-  import cc.LangLib._
+  import net.golovach.dcc.LangLib._
 
   sealed trait Dyck
   case object ε extends Dyck

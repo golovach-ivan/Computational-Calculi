@@ -1,9 +1,9 @@
-package cc.rho
+package net.golovach.dcc.rho
 
 object RHO extends App {
 
-  import cc.LangLib._
-  import cc.StreamLib._
+  import net.golovach.dcc.LangLib._
+  import net.golovach.dcc.StreamLib._
 
   sealed trait Process
   case object ∅ extends Process

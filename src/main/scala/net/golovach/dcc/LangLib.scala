@@ -1,4 +1,4 @@
-package cc
+package net.golovach.dcc
 
 /**
   * Pimp-my-library pattern. <br/>

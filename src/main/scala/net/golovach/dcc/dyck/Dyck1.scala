@@ -1,9 +1,9 @@
-package cc.dyck
+package net.golovach.dcc.dyck
 
 import scala.collection.mutable
 
 object Dyck1 extends App {
-  import cc.StreamLib._
+  import net.golovach.dcc.StreamLib._
 
   sealed trait Dyck
   case object ε extends Dyck
